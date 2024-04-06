@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens Dinâmicas</title>
+  </head>
+  <body>
+    <h1>Imagem Flexível</h1>
+    <h3>
+      Você está vendo a imagem completa? Aproveite para ampliar o tamanho da sua
+      janela para aproveitar a melhor esperiência
+    </h3>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="images/gelo-p.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="images/guepardo-m.jpg"
+        type="image/jpg"
+      />
+      <img src="images/barco-g.jpg" alt="Barco" />
+    </picture>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+* {
+  /*Configuração global */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #930afa,
+    #c401e3,
+    #ff01d3,
+    #ff0777,
+    #ff4f04,
+    #fe9305,
+    #fdc202
+  );
+  background-attachment: fixed;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin: 20px;
+}
